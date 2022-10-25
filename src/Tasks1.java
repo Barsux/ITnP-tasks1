@@ -89,9 +89,7 @@ public class Tasks1 {
         return sum;
     }
     public static boolean abcmath(int a, int b, int c){
-        for(int i = 0; i < b; i++){
-            a += a;
-        }
+        a = a * (b - 1);
         return a % c == 0;
     }
 }
